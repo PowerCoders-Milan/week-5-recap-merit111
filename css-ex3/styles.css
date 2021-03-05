@@ -1,0 +1,29 @@
+body {
+    background-color: darkseagreen;
+}
+.header {
+    font-weight: bolder;
+    text-align: center;
+    color: firebrick;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: 200vh;
+    border-radius: 20px;
+    /* margin: 20px; */
+
+}
+.footer {
+    text-align: center;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600vh) {
+    .content {
+      float: none;
+      width: 100vh;
+    }
+    
+}
