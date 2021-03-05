@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/lonely.jpg);
+    background-color: aqua;
+
+}
+
+.header {
+    font-size: large;
+    background-color: bisque;
+    text-align: center;
+    text-size-adjust: 20px;
+    text-decoration-color: chartreuse;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    text-size-adjust: 14px;
+    color: rgb(66, 184, 11);
+    margin: 30vh;
+    width: 20vh;
+    padding: 20vh;
+}
+
+.main1 {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    margin: 10vh;
+    padding: 10vh;
+
+}
+
+.main2 {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    margin: 10vh;
+    padding: 10vh;
+}
+
+.main3 {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darksalmon;
+    border-radius: 20px;
+    margin: 10vh;
+    padding: 10vh;
+}
+
+.footer {
+    animation-play-state: running;
+    align-content: center;
+    font-size: medium;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    margin: 20vh;
+    padding: 20vh;
+}
